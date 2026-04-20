@@ -1,0 +1,74 @@
+2026-04-20 16:14:40,408 - INFO - Authorization
+2026-04-20 16:14:40,416 - INFO - Token added
+2026-04-20 16:14:40,418 - INFO - GET /cars params: {'sort_by': 'price', 'limit': 5}
+2026-04-20 16:14:40,424 - INFO - Status code: 200
+2026-04-20 16:14:40,424 - INFO - Received records: 5
+2026-04-20 16:14:40,424 - INFO - Test passed
+
+2026-04-20 16:14:40,428 - INFO - GET /cars params: {'sort_by': 'price', 'limit': 10}
+2026-04-20 16:14:40,432 - INFO - Status code: 200
+2026-04-20 16:14:40,432 - INFO - Received records: 10
+2026-04-20 16:14:40,433 - INFO - Test passed
+
+2026-04-20 16:14:40,435 - INFO - GET /cars params: {'sort_by': 'year', 'limit': 7}
+2026-04-20 16:14:40,442 - INFO - Status code: 200
+2026-04-20 16:14:40,442 - INFO - Received records: 7
+2026-04-20 16:14:40,443 - INFO - Test passed
+
+2026-04-20 16:14:40,445 - INFO - GET /cars params: {'sort_by': 'engine_volume', 'limit': 8}
+2026-04-20 16:14:40,450 - INFO - Status code: 200
+2026-04-20 16:14:40,450 - INFO - Received records: 8
+2026-04-20 16:14:40,450 - INFO - Test passed
+
+2026-04-20 16:14:40,454 - INFO - GET /cars params: {'sort_by': 'brand', 'limit': 6}
+2026-04-20 16:14:40,458 - INFO - Status code: 200
+2026-04-20 16:14:40,459 - INFO - Received records: 6
+2026-04-20 16:14:40,459 - INFO - Test passed
+
+2026-04-20 16:14:40,462 - INFO - GET /cars params: {'limit': 5}
+2026-04-20 16:14:40,467 - INFO - Status code: 200
+2026-04-20 16:14:40,467 - INFO - Received records: 5
+2026-04-20 16:14:40,467 - INFO - Test passed
+
+2026-04-20 16:14:40,470 - INFO - GET /cars params: {'sort_by': 'price'}
+2026-04-20 16:14:40,473 - INFO - Status code: 200
+2026-04-20 16:14:40,474 - INFO - Received records: 25
+2026-04-20 16:14:40,474 - INFO - Test passed
+
+2026-04-20 16:21:09,632 - INFO - Authorization
+2026-04-20 16:21:10,068 - INFO - Token added
+2026-04-20 16:21:10,071 - INFO - GET /cars params: {'sort_by': 'price', 'limit': 5}
+2026-04-20 16:21:10,076 - INFO - Status code: 200
+2026-04-20 16:21:10,077 - INFO - Received records: 5
+2026-04-20 16:21:10,077 - INFO - Test passed
+
+2026-04-20 16:21:10,079 - INFO - GET /cars params: {'sort_by': 'price', 'limit': 10}
+2026-04-20 16:21:10,083 - INFO - Status code: 200
+2026-04-20 16:21:10,083 - INFO - Received records: 10
+2026-04-20 16:21:10,084 - INFO - Test passed
+
+2026-04-20 16:21:10,086 - INFO - GET /cars params: {'sort_by': 'year', 'limit': 7}
+2026-04-20 16:21:10,090 - INFO - Status code: 200
+2026-04-20 16:21:10,091 - INFO - Received records: 7
+2026-04-20 16:21:10,091 - INFO - Test passed
+
+2026-04-20 16:21:10,094 - INFO - GET /cars params: {'sort_by': 'engine_volume', 'limit': 8}
+2026-04-20 16:21:10,097 - INFO - Status code: 200
+2026-04-20 16:21:10,098 - INFO - Received records: 8
+2026-04-20 16:21:10,099 - INFO - Test passed
+
+2026-04-20 16:21:10,102 - INFO - GET /cars params: {'sort_by': 'brand', 'limit': 6}
+2026-04-20 16:21:10,106 - INFO - Status code: 200
+2026-04-20 16:21:10,107 - INFO - Received records: 6
+2026-04-20 16:21:10,107 - INFO - Test passed
+
+2026-04-20 16:21:10,110 - INFO - GET /cars params: {'limit': 5}
+2026-04-20 16:21:10,114 - INFO - Status code: 200
+2026-04-20 16:21:10,114 - INFO - Received records: 5
+2026-04-20 16:21:10,114 - INFO - Test passed
+
+2026-04-20 16:21:10,118 - INFO - GET /cars params: {'sort_by': 'price'}
+2026-04-20 16:21:10,122 - INFO - Status code: 200
+2026-04-20 16:21:10,122 - INFO - Received records: 25
+2026-04-20 16:21:10,123 - INFO - Test passed
+
