@@ -1,0 +1,54 @@
+25 XPath
+//button[text()='Guest log in']
+//h1[text()='Do more!']
+//h1[@class='hero-descriptor_title display-2']
+//button[text()='Sign up']
+//button[contains(@class,'hero-descriptor_btn')]
+//section[contains(@class,'hero')]//button
+//div[@id='aboutSection']
+//div[@id='aboutSection']//div[contains(@class,'about-block_picture')]
+//div[contains(@class,'about')]//div[contains(@class,'about-picture')]
+//p[contains(@class,'lead')]
+//div[contains(@class,'container')]//h1
+//div[contains(@class,'row')]//button
+//div[@class='hero-descriptor']//h1
+//div[@class='hero-descriptor']//button[text()='Sign up']
+//div[contains(@class,'col-lg-4')]//h1
+//div[contains(@class,'col-lg-4')]//button
+//section//div//h1[text()='Do more!']
+//section//button[@class='hero-descriptor_btn btn btn-primary']
+//div[@id='aboutSection' and contains(@class,'about')]
+//div[contains(@class,'about-block_picture') and contains(@class,'about-picture')]
+//div[contains(@class,'about')]//div
+//div[contains(@class,'section')]//button
+//section[@class='section hero']//h1
+//section[@class='section hero']//button
+//div[contains(@class,'hero-descriptor')]//p
+
+CSS локатори
+h1.hero-descriptor_title
+button.hero-descriptor_btn
+.hero-descriptor_btn.btn-primary
+#aboutSection
+#aboutSection .about-block_picture
+.about-picture
+.hero-descriptor h1
+.hero-descriptor button
+.container .hero-descriptor_title
+.row .hero-descriptor_btn
+.col-lg-4 h1
+.col-lg-4 button
+.section.hero h1
+.section.hero button
+.section.about
+.section.about .about-picture
+.hero-descriptor_descr
+.lead
+.section .container h1
+.section .container button
+.hero-descriptor_title.display-2
+.about-block_picture.about-picture
+.section.hero .hero-descriptor_btn
+.section.about .about-block_picture
+.container .about-picture
+
