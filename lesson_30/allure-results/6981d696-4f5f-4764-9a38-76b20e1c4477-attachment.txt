@@ -1,0 +1,4 @@
+2026-05-09 22:41:33,933 - INFO - Status code: 200
+2026-05-09 22:41:33,935 - INFO - Received records: 6
+2026-05-09 22:41:33,935 - INFO - Test passed successfully
+
