@@ -1,0 +1,2 @@
+[32mINFO    [0m cars_tests:test_cars_search.py:68 Status code: 200
+[32mINFO    [0m cars_tests:test_cars_search.py:92 Test passed successfully

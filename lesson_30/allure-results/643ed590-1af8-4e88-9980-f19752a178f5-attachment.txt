@@ -1,0 +1,6 @@
+2026-05-09 22:34:36,946 - INFO - Authorization
+2026-05-09 22:34:36,952 - INFO - Token added to session headers
+2026-05-09 22:34:36,959 - INFO - Status code: 200
+2026-05-09 22:34:36,960 - INFO - Received records: 5
+2026-05-09 22:34:36,961 - INFO - Test passed successfully
+
