@@ -1,0 +1,50 @@
+pipeline {
+    agent any
+
+    parameters {
+        string(name: 'BRANCH', defaultValue: 'homework_31.1', description: 'Git branch')
+        string(name: 'EMAIL_RECIPIENT', defaultValue: '', description: 'Recipient email address')
+    }
+
+    triggers {
+        pollSCM('H * * * *')
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: "${params.BRANCH}",
+                    url: 'https://github.com/OksanaTrokoz/QA-Automation-Python.git'
+            }
+        }
+
+        stage('Run tests') {
+            steps {
+                dir('lesson_31') {
+                    sh 'python3 -m pytest --junitxml=results.xml'
+                }
+            }
+        }
+
+        stage('Publish results') {
+            steps {
+                junit 'lesson_31/results.xml'
+            }
+        }
+
+        stage('Email') {
+            when {
+                expression { params.EMAIL_RECIPIENT != '' }
+            }
+            steps {
+                echo "--------------------------------------------------"
+                echo "EMAIL SIMULATION"
+                echo "To: ${params.EMAIL_RECIPIENT}"
+                echo "Subject: Jenkins Build ${env.BUILD_NUMBER}: ${currentBuild.currentResult}"
+                echo "Body: Build URL is ${env.BUILD_URL}. Status is ${currentBuild.currentResult}."
+                echo "Attachment: lesson_31/results.xml"
+                echo "--------------------------------------------------"
+            }
+        }
+    }
+}
